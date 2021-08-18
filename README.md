@@ -1,4 +1,6 @@
 # Disaster Response Pipeline Project
+### Project Workspace - ETL
+The first part of the data pipeline is to Extract, Transform and Load process. I read, cleaned and stored the data in the SQLite database. Data has been cleaned using pandas and is loaded to the SQLite database using pandas dataframe .to_sql() method which is used with an SQLAlchemy engine.
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
